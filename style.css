@@ -1,0 +1,1828 @@
+body{
+    z-index: 1;
+    background-image: url("my pictures/body.jpg");
+}
+
+
+.divnav{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;   
+    height: 30px;
+    background-image: url("my pictures/divnav.jpg");
+}
+
+li{
+    box-shadow: 0px 0px 20px #043030c9;  
+    border-radius: 5px;
+    list-style-type: none;
+    color:white;
+    background-color: #043030c9;
+    margin: 0.5%;
+}
+
+li:hover{
+    background-color:rgb(35, 17, 139);
+    box-shadow: 0px 0px 10px rgb(35, 17, 139);
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jesuis{
+    width: 50%;
+}
+
+.imagedemoi{
+    width: 50%;
+}
+
+.imagedemoi img{
+    width: 45%;
+    height: 75%;
+    position: relative;
+    left: 40%; 
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+    margin-top: 10%;
+}
+
+.imagedemoi :hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.h1jesuis{
+    font-size: 70px;
+    margin-left: 5%;
+}
+
+.divpresentation{ 
+    background-color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+}
+
+.pdescription{
+    font-size: 15px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+}
+
+.aboutme{
+    background-image: url("my pictures/divnav.jpg");
+    position: relative;
+    left: 37%;
+    margin-top:5%;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black inset;   
+    transform:rotate3d(5,10,8);
+}
+
+.aboutme :hover{
+    box-shadow: 0px 0px 20px black inset;
+}
+
+
+.paboutme{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: -1%;
+}
+
+.souligneur{
+    position: relative;
+    left: 47%;
+}
+
+.psouligneur{
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9;
+}
+
+.gauche{
+    width:50%;
+    margin-left: 2%;
+}
+
+.droite{
+    width: 50%;
+    margin-right: 2%;
+}
+
+.divcompetences{
+    display: flex;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+
+.gauche h2{
+    margin-left: 2%;
+    font-size: 40px;
+    margin-bottom: -2px;
+}
+
+.droite img{
+    position: relative;
+    left: 40%;
+    margin-right: 10%;
+    margin-top: 10%;
+    width: 50%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.droite :hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.experiencedsouligneur{
+    position: relative;
+    left: 20%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9; 
+    margin-bottom: 20px;
+}
+
+button{
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: 10px 5px 20px black inset;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+.Whatservice{
+    text-align: center;
+    background-image: url("my pictures/divnav.jpg");
+    position: relative;
+    left: 35%;
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black inset;
+}
+
+.Whatservice:hover{
+box-shadow: 0px 0px 10px black inset;
+}
+
+.whatsevivesouligneur{
+    position: relative;
+    left: 45%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9;
+    margin-bottom: 20px;
+}
+
+.contenuwhatservice{
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-left: 1%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 3%;
+    }
+
+.divsouligneurworkexperience{
+    position: relative;
+    left: 10%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9;
+    margin-bottom: 20px;
+}
+
+.workexperience{
+    text-align: center;
+    background-image: url("my pictures/divnav.jpg");
+    position: relative;
+    left: 32%;
+    width: 35%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black inset;
+}
+
+.workexperience:hover{
+    box-shadow: 0px 0px 10px black inset;
+}
+
+.souligneurworkexperience{
+    position: relative;
+    left: 35%;
+}
+
+.detailsworkexperience{
+    background-color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 3%;
+}
+
+.detailsworkexperience h1{
+    font-size: 30px;
+}
+
+.Webdevelopment{
+    width: 30%
+}
+
+
+.graphiquedesigner{
+    width: 30%
+}
+
+.ui{
+    width: 30%
+}
+
+.divsouligneurmyportofolio{
+    position: relative;
+    left: 3%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9;
+    margin-bottom: 20px;
+}
+
+.myportofolio{
+    background-image: url("my pictures/divnav.jpg");
+    position: relative;
+    left: 41%;
+    width: 25%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black inset;
+}
+
+.myportofolio:hover{
+    box-shadow: 0px 0px 10px black inset;
+}
+.souligneurmyportofolio{
+    position: relative;
+    left: 45%;
+}
+
+.divimg img{
+    width: 100%;
+    height: 90%;
+    border-radius: 10%;
+    position: relative;
+    left: -0%;
+    -webkit-animation-name:diaporama ;
+    -webkit-animation-duration: 25s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 3s;
+    -moz-animation-name:diaporama ;
+    -moz-animation-duration: 25s;
+    -moz-animation-direction: alternate;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-delay: 3s;
+    -o-animation-name:diaporama ;
+    -o-animation-duration: 25s;
+    -o-animation-direction: alternate;
+    -o-animation-iteration-count: infinite;
+    -o-animation-delay: 3s;
+    animation-name:diaporama ;
+    animation-duration: 25s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@-webkit-keyframes diaporama{
+    0%{left: 0%;}
+    25%{left: -100%;}
+    50%{left: -200%;}
+    75%{left: -300%;}
+    100%{left: 0%;}
+
+}
+
+@-moz-keyframes diaporama{
+    0%{left: 0%;}
+    25%{left: -100%;}
+    50%{left: -200%;}
+    75%{left: -300%;}
+    100%{left: 0%;}
+
+}
+
+@-o-keyframes diaporama{
+    0%{left: 0%;}
+    25%{left: -100%;}
+    50%{left: -200%;}
+    75%{left: -300%;}
+    100%{left: 0%;}
+
+}
+
+@keyframes diaporama{
+    0%{left: 0%;}
+    25%{left: -100%;}
+    50%{left: -200%;}
+    75%{left: -300%;}
+    100%{left: 0%;}
+
+}
+
+.divimg{
+    margin-left: 30%;
+    width: 50%;
+    height: 40%;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10%;
+}
+
+
+.divsouligneurquedisent{
+    position: relative;
+    left: 50%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9;
+    margin-bottom: 20px;
+}
+
+.quedisent{
+    background-image: url("my pictures/divnav.jpg");
+    position: relative;
+    left: 38%;
+    width: 35%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black inset;
+}
+
+.quedisent:hover{
+     box-shadow: 0px 0px 10px black inset;
+}
+
+.imgplus{
+    background-color:rgba(255, 255, 255, 0.8);
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.imgplus1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10%;
+}
+
+.imgplus img{
+    width: 40%;
+    height: 90%;
+    margin-left:50%;
+    border-radius: 50%;
+}
+
+.imgplus2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgplus3{
+    margin-left: -5%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.plus{
+    margin-left: 40%;
+}
+
+footer{
+    background-color: black;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    gap: 50px;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: url("my pictures/footer.jpg");
+}
+
+#fb, #tw, #lk{
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+}
+
+#fb{
+    background-image: url("my pictures/fb.jpg");
+    background-position: 50px 50px;
+}
+
+#tw{
+    background-image: url("my pictures/tw.jpg");
+    background-position: 50px 50px; 
+    left: 85px;
+}
+
+#lk{
+    background-image: url("my pictures/lk.jpg");
+    background-position: 50px 50px;
+    left: 145px;
+}
+
+.class{
+    width: 40%;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.logos{
+    width: 30%;
+    height: 5%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+a{
+    border-radius: 50%;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 22%;
+    border-radius: 50%;
+    margin-top: 2%;
+}
+
+.copyright{
+    position: relative;
+    left: -20%;
+}
+
+.copyright p{
+    text-align: center;
+}
+
+.contact{
+    width: 30%;
+    position: relative;
+    left: -5%;
+    margin-top: 1%;
+}
+
+.contact a{
+    color: white;
+}
+
+
+/* Ici commence la mise en forme de la page a propos*/
+
+.divcompetencesapropos{
+    background-color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+    }
+
+.droiteapropos {
+    margin-top: 10%;
+    margin-right:10% ;
+    width: 50%;
+}
+
+.droiteapropos h2{
+    text-align: center;
+}
+
+.experiencedsouligneurapropos{
+    position: relative;
+    left: 36%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9; 
+}
+
+.fb, .tw, .lk{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    position: relative;
+}
+
+.fb{
+    background-image: url("my pictures/fb.jpg");
+    background-position: 50px 50px;
+    
+}
+
+.tw{
+    background-image: url("my pictures/tw.jpg");
+    background-position: 50px 50px; 
+    left: 5%;
+}
+
+.lk{
+    background-image: url("my pictures/lk.jpg");
+    background-position: 50px 50px;
+    left: 10%;
+}
+
+
+.gaucheapropos{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 20%;
+    margin-bottom: 10%;
+}
+
+
+.gaucheapropos img{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50%;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.gaucheapropos img:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.discutons p a{
+    color: rgb(9, 4, 56);
+    text-decoration: none;
+}
+
+.ensemble{
+    background-color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+    margin-top: 2%;
+    }
+
+.divsouligneurmesservices{
+    margin-top: -5%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9; 
+}
+
+.ensemble1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5%;
+
+}
+
+.ensemble2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.div1{
+    background-color:rgba(255, 255, 255, 0.8);
+    background-color: gray;
+    opacity: 0.5;
+    width: 80%;
+    height: 5%;
+    margin: 5%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+   }
+
+.div1 p{
+    background-color: rgb(148, 120, 69);
+    color: white;
+    font-size: 20px;
+    margin-top: 2%;
+    font-weight: 700;
+}
+
+.div2{
+    background-color:rgba(255, 255, 255, 0.8);
+    background-color: gray;
+    opacity: 0.5;
+    width: 80%;
+    height: 5%;
+    margin: 5%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+   }
+
+.div2 p{
+    background-color: rgb(148, 120, 69);
+    color: white;
+    font-size: 20px;
+    margin-top: 2%;
+    font-weight: 700;
+}
+
+.div3{
+    background-color:rgba(255, 255, 255, 0.8);
+    background-color: gray;
+    opacity: 0.5;
+    width: 80%;
+    height: 5%;
+    margin: 5%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+    }
+
+.div3 p{
+    background-color: rgb(148, 120, 69);
+    color: white;
+    font-size: 20px;
+    margin-top: 2%;
+    font-weight: 700;
+}
+
+/*here starts the maintaining of the portofolio page*/
+
+.divimages{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 10%;
+}
+
+.divimages img{
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+    box-shadow: 0px 0px 20px black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.divimages img:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.Whatserviceporte{
+    margin-top: 5%;
+    position: relative;
+    left: 30%;
+    width: 41%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black inset;
+}
+
+.divsouligneurwhatserviceporte{
+    position: relative;
+    left: 40%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9;
+    margin-bottom: 20px;
+}
+
+/* here start the contact page styling */
+
+.con{
+    background-image: url("my pictures/divnav.jpg");
+    margin-top: 5%;
+    position: relative;
+    left: 40%;
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black inset;
+}
+
+.con:hover{
+    box-shadow: 0px 0px 10px black inset;
+}
+
+.divsouligneurcon{
+    position: relative;
+    left: 44%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9;
+    margin-bottom: 20px;
+}
+
+.all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.all img{
+    width: 50%;
+    height: 50%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+    margin-left: 5%;
+}
+
+.first p{
+    margin-left:20%;
+}
+
+
+.second{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+}
+
+.second p{
+    margin-left: 5%;
+}
+
+
+.third{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+    margin-right: 5%;
+}
+
+.third p{
+    margin-left: 3%;
+}
+
+.message{
+    background-image: url("my pictures/divnav.jpg");
+    margin-top: 5%;
+    position: relative;
+    left: 38%;
+    width: 25%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px black inset;
+}
+
+.message:hover{
+    box-shadow: 0px 0px 10px black inset;
+}
+
+.divsouligneurmessage{
+    position: relative;
+    left: 47%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9;
+    margin-bottom: 20px;
+}
+
+.peur{
+    background-color:rgba(255, 255, 255, 0.8);
+    width: 20%;
+    height: 10%;
+    margin-left: 40%;
+    margin-right: 30%;
+    margin-top: 2%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+   }
+
+.peur:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.peur p{
+    margin: 5%;
+}
+
+
+/* here start the media queries properties applying*/
+
+@media screen  and (min-width:0px) and (max-width:320px){
+
+    
+.divnav{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;   
+    height: 3%;
+    background-image: url("my pictures/divnav.jpg");
+}
+
+li{
+    box-shadow: 0px 0px 20px #043030c9;  
+    border-radius: 5px;
+    list-style-type: none;
+    color:white;
+    background-color: #043030c9;
+    width: 25%;
+    font-size: 70%;
+    text-align: center;
+}
+
+ul :nth-child(1){
+    margin-left: -15%;
+}
+
+li:hover{
+    background-color:rgb(35, 17, 139);
+    box-shadow: 0px 0px 10px rgb(35, 17, 139);
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+ 
+
+    .imagedemoi img{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        left:-8%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px black;
+        margin-top: 15%;
+    }
+
+    .h1jesuis{
+        font-size: 20px;
+        margin-left: 5%;
+    }
+
+    .pdescription{
+        font-size: 13px;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    
+    }
+
+    .aboutme{
+        width: 70%;
+        background-image: url("my pictures/divnav.jpg");
+        position: relative;
+        left: 20%;
+        margin-top:5%;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .paboutme{
+        font-size:20px;
+    }
+
+    .gauche h2{
+        font-size: 20px;
+    }
+
+    .gauche p{
+        font-size: 13px;
+    }
+
+    .droite img{
+        position: relative;
+        left: 10%;
+        width: 90%;
+        height: 50%;
+        margin-top: 20%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px black;
+    }
+
+    .Whatservice{
+        font-size: 11px;
+        background-image: url("my pictures/divnav.jpg");
+        position: relative;
+        left: 15%;
+        width: 70%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px black inset;
+        text-align: center;
+    }
+
+    .contenuwhatservice{
+        font-size: 14px;
+    }
+
+    .workexperience{
+        font-size: 11px;
+        background-image: url("my pictures/divnav.jpg");
+        position: relative;
+        left: 10%;
+        width:80%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px black inset;
+        text-align: center;
+    }
+
+    .divsouligneurworkexperience{
+        position: relative;
+        left: -5%;
+    }
+
+    .detailsworkexperience h1{
+        font-size: 13px;
+    }
+
+    .detailsworkexperience p{
+        font-size: 12px;
+    }
+
+    .myportofolio{
+        font-size: 11px;
+        background-image: url("my pictures/divnav.jpg");
+        position: relative;
+        left: 25%;
+        width: 55%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px black inset;
+        text-align: center;
+    }
+
+    .souligneurmyportofolio{
+        position: relative;
+        left: 30%;
+    }
+    
+    .divimg{
+        position: relative;
+        left: -5%;
+        margin-left: 30%;
+        width: 50%;
+        height: 40%;
+        overflow: hidden;
+        display: flex;
+        box-shadow: 0px 0px 20px black;
+        border-radius: 10%;
+    }
+
+    .quedisent{
+        font-size: 11px;
+        background-image: url("my pictures/divnav.jpg");
+        position: relative;
+        left: 10%;
+        width: 80%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 20px black inset;
+        text-align: center;
+    }
+
+    .divsouligneurquedisent{
+        position: relative;
+        left: 32%;
+    }
+
+    .imgplus p{
+        font-size: 13px;
+    }
+
+    
+footer{
+    background-color: black;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    gap: 50px;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: url("my pictures/footer.jpg");
+}
+
+#fb, #tw, #lk{
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: relative;
+    margin: 20%;
+}
+
+#fb{
+    background-image: url("my pictures/fb.jpg");
+}
+
+#tw{
+    background-image: url("my pictures/tw.jpg"); 
+    left: -1%;
+}
+
+#lk{
+    background-image: url("my pictures/lk.jpg");
+    left: -1%;
+}
+
+
+a{
+    border-radius: 50%;
+}
+
+.class{
+    margin-top: 10%;
+}
+
+.logo img{
+    position: relative;
+    left: -20%;
+}
+
+
+.copyright p{
+    font-size: 13px;
+    margin-left: 10%;
+    margin-top: -5%;
+}
+
+
+.contact a{
+    color: rgba(40, 7, 131, 0);
+}
+
+
+/* Ici commence la mise en forme de la page a propos*/
+
+.divcompetencesapropos{
+    background-color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+    }
+
+.droiteapropos {
+    margin-top: 10%;
+    margin-right:10% ;
+    width: 40%;
+    font-size: 12px;
+}
+
+.droiteapropos h2{
+    text-align: center;
+    font-size: 13px;
+}
+
+.experiencedsouligneurapropos{
+    position: relative;
+    font-size: 10px;
+    left: 36%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9; 
+}
+
+.fb, .tw, .lk{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    position: relative;
+}
+
+.fb{
+    background-image: url("my pictures/fb.jpg");
+    background-position: 50px 50px;
+    
+}
+
+.tw{
+    background-image: url("my pictures/tw.jpg");
+    background-position: 50px 50px; 
+    left: 5%;
+}
+
+.lk{
+    background-image: url("my pictures/lk.jpg");
+    background-position: 50px 50px;
+    left: 10%;
+}
+
+
+.gaucheapropos{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+
+.gaucheapropos img{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50%;
+    width: 100%;
+    height: 45%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.gaucheapropos img:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.discutons p a{
+    color: rgb(27, 10, 175);
+}
+
+.discutons :nth-child(2){
+    font-size: 11px;
+}
+
+.ensemble{
+    background-color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+    margin-top: 2%;
+    }
+
+.divsouligneurmesservices{
+    margin-top: -5%;
+    letter-spacing: -2px;
+    font-weight: bold;
+    color: #6767e9; 
+}
+
+.ensemble1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 14px;
+
+}
+
+.ensemble2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.div1{
+    background-color:rgba(255, 255, 255, 0.8);
+    background-color: gray;
+    opacity: 0.5;
+    width: 80%;
+    height: 5%;
+    margin: 5%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+   }
+
+.div1 p{
+    background-color: rgb(148, 120, 69);
+    color: white;
+    font-size: 20px;
+    margin-top: 2%;
+    font-weight: 700;
+}
+
+.div2{
+    background-color:rgba(255, 255, 255, 0.8);
+    background-color: gray;
+    opacity: 0.5;
+    width: 80%;
+    height: 5%;
+    margin: 5%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+   }
+
+.div2 p{
+    background-color: rgb(148, 120, 69);
+    color: white;
+    font-size: 20px;
+    margin-top: 2%;
+    font-weight: 700;
+}
+
+.div3{
+    background-color:rgba(255, 255, 255, 0.8);
+    background-color: gray;
+    opacity: 0.5;
+    width: 80%;
+    height: 5%;
+    margin: 5%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 5%;
+    }
+
+.div3 p{
+    background-color: rgb(148, 120, 69);
+    color: white;
+    font-size: 20px;
+    margin-top: 2%;
+    font-weight: 700;
+}
+
+    .con{
+        width: 40%;
+        position: relative;
+        left:37%;
+    }
+
+    .con h1{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .all{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .first{
+        margin-bottom: 3%;
+        width:auto;
+        border-radius: 5%;
+        margin-left: -0.5%;
+    }
+
+    .third{
+        width:auto;
+        border-radius: 5%;
+        margin-left: 5%;
+    }
+
+    .third p{
+        font-size: 80%;
+        text-align: center;
+    }
+
+    .second{
+        margin-bottom: 3%;
+        width: auto;
+        position: RELATIVE;
+        left: 1%;
+        border-radius: 5%;
+    }
+
+    .message{
+        width: 70%;
+        position: relative;
+        left: 15%;
+    }
+
+    .message h1{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .divsouligneurmessage{
+        position: relative;
+        left: 35%;
+    }
+
+    .peur{
+        width: 60%;
+        position: relative;
+        left: -25%;
+    }
+}
+
+@media screen  and (min-width:321px) and (max-width:768px){
+    .divnav{
+        width: 100%;
+        display: block;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px black;   
+        height: 3%;
+        background-image: url("my pictures/divnav.jpg");
+    }
+    
+    li{
+        box-shadow: 0px 0px 20px #043030c9;  
+        border-radius: 5px;
+        list-style-type: none;
+        color:white;
+        background-color: #043030c9;
+        width: 20%;
+        font-size: 70%;
+        text-align: center;
+    }
+    
+    
+    li:hover{
+        background-color:rgb(35, 17, 139);
+        box-shadow: 0px 0px 10px rgb(35, 17, 139);
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+     
+    
+        .imagedemoi img{
+            width: 70%;
+            height: 80%;
+            position: relative;
+            left:2%;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px black;
+            margin-top: 10%;
+        }
+    
+        .h1jesuis{
+            font-size: 20px;
+            margin-left: 5%;
+        }
+    
+        .pdescription{
+            font-size: 13px;
+            margin-left: 5%;
+            margin-bottom: 5%;
+        
+        }
+    
+        .aboutme{
+            width: 70%;
+            background-image: url("my pictures/divnav.jpg");
+            position: relative;
+            left: 20%;
+            margin-top:5%;
+            border-radius: 5px;
+            text-align: center;
+        }
+    
+        .paboutme{
+            font-size:20px;
+        }
+    
+        .gauche h2{
+            font-size: 20px;
+        }
+    
+        .gauche p{
+            font-size: 13px;
+        }
+    
+        .droite img{
+            position: relative;
+            left: 10%;
+            width: 80%;
+            height: 65%;
+            margin-top: 20%;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px black;
+        }
+    
+        .Whatservice{
+            font-size: 11px;
+            background-image: url("my pictures/divnav.jpg");
+            position: relative;
+            left: 15%;
+            width: 70%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px black inset;
+            text-align: center;
+        }
+    
+        .contenuwhatservice{
+            font-size: 14px;
+        }
+    
+        .workexperience{
+            font-size: 11px;
+            background-image: url("my pictures/divnav.jpg");
+            position: relative;
+            left: 10%;
+            width:80%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px black inset;
+            text-align: center;
+        }
+    
+        .divsouligneurworkexperience{
+            position: relative;
+            left: -5%;
+        }
+    
+        .detailsworkexperience h1{
+            font-size: 13px;
+        }
+    
+        .detailsworkexperience p{
+            font-size: 12px;
+        }
+    
+        .myportofolio{
+            font-size: 11px;
+            background-image: url("my pictures/divnav.jpg");
+            position: relative;
+            left: 25%;
+            width: 55%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px black inset;
+            text-align: center;
+        }
+    
+        .souligneurmyportofolio{
+            position: relative;
+            left: 30%;
+        }
+        
+        .divimg{
+            position: relative;
+            left: -5%;
+            margin-left: 30%;
+            width: 50%;
+            height: 40%;
+            overflow: hidden;
+            display: flex;
+            box-shadow: 0px 0px 20px black;
+            border-radius: 10%;
+        }
+    
+        .quedisent{
+            font-size: 11px;
+            background-image: url("my pictures/divnav.jpg");
+            position: relative;
+            left: 10%;
+            width: 80%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px black inset;
+            text-align: center;
+        }
+    
+        .divsouligneurquedisent{
+            position: relative;
+            left: 32%;
+        }
+    
+        .imgplus p{
+            font-size: 13px;
+        }
+    
+        
+    footer{
+        background-color: black;
+        height: 20%;
+        width: 100%;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        gap: 50px;
+        box-shadow: 0px 0px 20px black;
+        border-radius: 50px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-image: url("my pictures/footer.jpg");
+    }
+    
+    #fb, #tw, #lk{
+        width: 50px;
+        height: 50px;
+        display: block;
+        position: relative;
+        margin: 20%;
+    }
+    
+    #fb{
+        background-image: url("my pictures/fb.jpg");
+    }
+    
+    #tw{
+        background-image: url("my pictures/tw.jpg"); 
+        left: -1%;
+    }
+    
+    #lk{
+        background-image: url("my pictures/lk.jpg");
+        left: -1%;
+    }
+    
+    
+    a{
+        border-radius: 50%;
+    }
+    
+    .class{
+        margin-left: -20%;
+        margin-top: 10%;
+    }
+    
+    .logo img{
+        position: relative;
+        left: -20%;
+    }
+    
+    
+    .copyright p{
+        text-align: center;
+        font-size: 13px;
+        margin-left: -28%;
+    }
+    
+    
+    .contact{
+        margin-top: 10%;
+        margin-left: -55%;
+        font-size: 72%;
+    }
+
+    .contact p a{
+        color: rgba(40, 7, 131, 0)
+    }
+    
+    
+    /* Ici commence la mise en forme de la page a propos*/
+    
+    .divcompetencesapropos{
+        background-color:rgba(255, 255, 255, 0.8);
+        display: flex;
+        box-shadow: 0px 0px 20px black;
+        border-radius: 5%;
+        }
+    
+    .droiteapropos {
+        margin-top: 10%;
+        margin-right:10% ;
+        width: 40%;
+        font-size: 12px;
+    }
+    
+    .droiteapropos h2{
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    .experiencedsouligneurapropos{
+        position: relative;
+        font-size: 10px;
+        left: 36%;
+        letter-spacing: -2px;
+        font-weight: bold;
+        color: #6767e9; 
+    }
+    
+    .fb, .tw, .lk{
+        width: 50px;
+        height: 50px;
+        display: inline-flex;
+        position: relative;
+    }
+    
+    .fb{
+        background-image: url("my pictures/fb.jpg");
+        background-position: 50px 50px;
+        
+    }
+    
+    .tw{
+        background-image: url("my pictures/tw.jpg");
+        background-position: 50px 50px; 
+        left: 5%;
+    }
+    
+    .lk{
+        background-image: url("my pictures/lk.jpg");
+        background-position: 50px 50px;
+        left: 10%;
+    }
+    
+    
+    .gaucheapropos{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 60%;
+        margin-bottom: 10%;
+    }
+    
+    
+    .gaucheapropos img{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 50%;
+        width: 90%;
+        height: 65%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px black;
+    }
+    
+    .gaucheapropos img:hover{
+        box-shadow: 0px 0px 10px black;
+    }
+    
+    .discutons p a{
+        color: rgb(27, 10, 175);
+    }
+    
+    .discutons :nth-child(2){
+        font-size: 11px;
+    }
+    
+    .ensemble{
+        background-color:rgba(255, 255, 255, 0.8);
+        display: flex;
+        box-shadow: 0px 0px 20px black;
+        border-radius: 5%;
+        margin-top: 2%;
+        }
+    
+    .divsouligneurmesservices{
+        margin-top: -5%;
+        letter-spacing: -2px;
+        font-weight: bold;
+        color: #6767e9; 
+    }
+    
+    .ensemble1{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 5%;
+        font-size: 14px;
+    
+    }
+    
+    .ensemble2{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    
+    .div1{
+        background-color:rgba(255, 255, 255, 0.8);
+        background-color: gray;
+        opacity: 0.5;
+        width: 80%;
+        height: 5%;
+        margin: 5%;
+        box-shadow: 0px 0px 20px black;
+        border-radius: 5%;
+       }
+    
+    .div1 p{
+        background-color: rgb(148, 120, 69);
+        color: white;
+        font-size: 20px;
+        margin-top: 2%;
+        font-weight: 700;
+    }
+    
+    .div2{
+        background-color:rgba(255, 255, 255, 0.8);
+        background-color: gray;
+        opacity: 0.5;
+        width: 80%;
+        height: 5%;
+        margin: 5%;
+        box-shadow: 0px 0px 20px black;
+        border-radius: 5%;
+       }
+    
+    .div2 p{
+        background-color: rgb(148, 120, 69);
+        color: white;
+        font-size: 20px;
+        margin-top: 2%;
+        font-weight: 700;
+    }
+    
+    .div3{
+        background-color:rgba(255, 255, 255, 0.8);
+        background-color: gray;
+        opacity: 0.5;
+        width: 80%;
+        height: 5%;
+        margin: 5%;
+        box-shadow: 0px 0px 20px black;
+        border-radius: 5%;
+        }
+    
+    .div3 p{
+        background-color: rgb(148, 120, 69);
+        color: white;
+        font-size: 20px;
+        margin-top: 2%;
+        font-weight: 700;
+    }
+    
+        
+.first{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+    margin-left: 5%;
+}
+
+.first p{
+    margin-left:15%;
+}
+
+
+.second{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+}
+
+.second p{
+    margin-left: 5%;
+}
+
+
+.third{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: auto;
+    margin-right: 5%;
+}
+
+.third p{
+    margin-left: 3%;
+}
+
+.con h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.con{
+    width: 25%;
+    position: relative;
+    left: 38%;
+}
+
+    .message{
+        width: 30%;
+        position: relative;
+        left: 35%;
+    }
+    
+    .message h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .divsouligneurmessage{
+        position: relative;
+        left: 45%;
+    }
+    
+    .peur{
+        width: 60%;
+        position: relative;
+        left: -25%;
+        }
+}
+
+
+@media screen  and (min-width:769px) and(max-width:1024px){
+
+
+
+
+}
