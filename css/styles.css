@@ -11732,3 +11732,61 @@ html {
     left: -2vw;
   }
 }
+
+
+/* Style pour le conteneur principal */
+        .container {
+            display: flex;
+            flex-direction: column; /* Les div parents sont disposées en colonne */
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px; /* La largeur max de la page */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Style pour les div parents */
+        .parent {
+            display: flex;
+            justify-content: space-between; /* Alignement horizontal des enfants */
+            gap: 10px;
+            flex-wrap: wrap; /* Pour la responsivité, permet aux enfants de passer à la ligne suivante */
+        }
+
+        /* Style pour les div enfants */
+        .child {
+            flex: 1;
+            min-width: 280px; /* Largeur minimale des div enfants */
+            display: flex;
+            flex-direction: column; /* Alignement vertical à l'intérieur de chaque div enfant */
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style pour l'image dans chaque div enfant */
+        .image-container {
+            flex: 1;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Style pour le paragraphe dans chaque div enfant */
+        .text-container {
+            flex: 1;
+            text-align: center;
+        }
+
+        /* Media query pour les petits écrans */
+        @media (max-width: 768px) {
+            .parent {
+                flex-direction: column; /* Empile les div parents sur les petits écrans */
+            }
+        }
